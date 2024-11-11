@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Play:wght@700&display=swap');
+
+
+
+body{
+    margin:0;
+}
+
+
+
+
+
+
+
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color:#000000;
+}
+
+.logo{
+width: 30%;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    margin-left: 71px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+
+
+}
+
+
+main{
+    padding-bottom: 30px;
+    margin: 0;
+    background-color: #CD2439;
+}
+
+.home{
+    width: 100%;
+    height: 1425px;
+    background-image: url(images/main__img.png);
+    background-attachment: fixed;
+}
+#history{
+    height: 40px;
+}
+#albums{
+    height: 40px;
+}
+#concerts{
+    height: 40px;
+}
+
+
+
+
+.history > h2{
+    font-family: 'Play';
+    font-weight: 700;
+    font-size: 90px;
+    color: #FFFFFF;
+}
+
+.history > p{
+    font-family: 'Play';
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+
+
+
+
+.albums > h2{
+    font-family: 'Play';
+    font-weight: 700;
+    font-size: 90px;
+    color: #FFFFFF;
+}
+
+.albums_tablet{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+}
+.albums_tablet > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Play';
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.albums > img{
+    width: 15%;
+}
+
+
+.concerts > h2{
+    font-family: 'Play';
+    font-weight: 700;
+    font-size: 90px;
+    color: #FFFFFF;
+}
+
+.concerts > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
+.concerts > div > p{
+    font-family: 'Play';
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.concerts > div > form > button{
+    background-color: #000000;
+    font-family: 'Play';
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF
+}
+
+footer{
+    background-color: #000000;
+    padding: 30px;
+}
+
+p{
+    margin: 0;
+}
+.contacts{
+    font-family: 'Play';
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF;
+}
